@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E970FD3722D6BC62007A1ACC /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970FD3622D6BC62007A1ACC /* ReviewViewModel.swift */; };
+		E970FD3A22D6D41A007A1ACC /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970FD3922D6D41A007A1ACC /* ReviewCell.swift */; };
+		E970FD3C22D6D475007A1ACC /* UIElementsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970FD3B22D6D475007A1ACC /* UIElementsManager.swift */; };
+		E970FD3E22D6D564007A1ACC /* Fonts+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970FD3D22D6D564007A1ACC /* Fonts+Extentions.swift */; };
+		E970FD4022D6D6B4007A1ACC /* AppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970FD3F22D6D6B4007A1ACC /* AppearanceManager.swift */; };
+		E970FD4222D6D730007A1ACC /* UIElementsSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970FD4122D6D730007A1ACC /* UIElementsSizes.swift */; };
+		E970FD4422D6DC56007A1ACC /* AddSubsviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970FD4322D6DC56007A1ACC /* AddSubsviews.swift */; };
 		E9D3D03D22D4314400AD6366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D03C22D4314400AD6366 /* AppDelegate.swift */; };
 		E9D3D03F22D4314400AD6366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D03E22D4314400AD6366 /* ViewController.swift */; };
 		E9D3D04222D4314400AD6366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D3D04022D4314400AD6366 /* Main.storyboard */; };
@@ -14,6 +21,13 @@
 		E9D3D04722D4314600AD6366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D3D04522D4314600AD6366 /* LaunchScreen.storyboard */; };
 		E9D3D05222D4314600AD6366 /* NewYorkTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D05122D4314600AD6366 /* NewYorkTimesTests.swift */; };
 		E9D3D05D22D4314600AD6366 /* NewYorkTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D05C22D4314600AD6366 /* NewYorkTimesUITests.swift */; };
+		E9D3D06E22D431D600AD6366 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D06D22D431D600AD6366 /* Base.swift */; };
+		E9D3D07022D4349B00AD6366 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D06F22D4349B00AD6366 /* Results.swift */; };
+		E9D3D07222D434DD00AD6366 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D07122D434DD00AD6366 /* Link.swift */; };
+		E9D3D07422D4350900AD6366 /* Multimedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D07322D4350900AD6366 /* Multimedia.swift */; };
+		E9D3D08122D6B39A00AD6366 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D08022D6B39A00AD6366 /* ReviewViewController.swift */; };
+		E9D3D08422D6B46E00AD6366 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D08322D6B46E00AD6366 /* NetworkManager.swift */; };
+		E9D3D08722D6B4B000AD6366 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3D08622D6B4B000AD6366 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E970FD3622D6BC62007A1ACC /* ReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
+		E970FD3922D6D41A007A1ACC /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		E970FD3B22D6D475007A1ACC /* UIElementsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementsManager.swift; sourceTree = "<group>"; };
+		E970FD3D22D6D564007A1ACC /* Fonts+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+Extentions.swift"; sourceTree = "<group>"; };
+		E970FD3F22D6D6B4007A1ACC /* AppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceManager.swift; sourceTree = "<group>"; };
+		E970FD4122D6D730007A1ACC /* UIElementsSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementsSizes.swift; sourceTree = "<group>"; };
+		E970FD4322D6DC56007A1ACC /* AddSubsviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubsviews.swift; sourceTree = "<group>"; };
 		E9D3D03922D4314400AD6366 /* NewYorkTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewYorkTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D3D03C22D4314400AD6366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D3D03E22D4314400AD6366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,13 @@
 		E9D3D05822D4314600AD6366 /* NewYorkTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewYorkTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D3D05C22D4314600AD6366 /* NewYorkTimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYorkTimesUITests.swift; sourceTree = "<group>"; };
 		E9D3D05E22D4314600AD6366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D3D06D22D431D600AD6366 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		E9D3D06F22D4349B00AD6366 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		E9D3D07122D434DD00AD6366 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		E9D3D07322D4350900AD6366 /* Multimedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multimedia.swift; sourceTree = "<group>"; };
+		E9D3D08022D6B39A00AD6366 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		E9D3D08322D6B46E00AD6366 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E9D3D08622D6B4B000AD6366 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E970FD3822D6D3A3007A1ACC /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				E970FD3922D6D41A007A1ACC /* ReviewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
 		E9D3D03022D4314400AD6366 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +133,14 @@
 		E9D3D03B22D4314400AD6366 /* NewYorkTimes */ = {
 			isa = PBXGroup;
 			children = (
+				E9D3D08522D6B49700AD6366 /* Extensions */,
+				E9D3D08222D6B41400AD6366 /* Custom Managers */,
+				E9D3D06C22D4318D00AD6366 /* Models */,
+				E9D3D07622D438B100AD6366 /* ViewModels */,
+				E9D3D07522D4389000AD6366 /* Views */,
+				E9D3D07F22D6B2EC00AD6366 /* ViewControllers */,
+				E970FD3822D6D3A3007A1ACC /* CustomCells */,
 				E9D3D03C22D4314400AD6366 /* AppDelegate.swift */,
-				E9D3D03E22D4314400AD6366 /* ViewController.swift */,
 				E9D3D04022D4314400AD6366 /* Main.storyboard */,
 				E9D3D04322D4314600AD6366 /* Assets.xcassets */,
 				E9D3D04522D4314600AD6366 /* LaunchScreen.storyboard */,
@@ -123,6 +165,62 @@
 				E9D3D05E22D4314600AD6366 /* Info.plist */,
 			);
 			path = NewYorkTimesUITests;
+			sourceTree = "<group>";
+		};
+		E9D3D06C22D4318D00AD6366 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3D06D22D431D600AD6366 /* Base.swift */,
+				E9D3D06F22D4349B00AD6366 /* Results.swift */,
+				E9D3D07122D434DD00AD6366 /* Link.swift */,
+				E9D3D07322D4350900AD6366 /* Multimedia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9D3D07522D4389000AD6366 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9D3D07622D438B100AD6366 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E970FD3622D6BC62007A1ACC /* ReviewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E9D3D07F22D6B2EC00AD6366 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3D03E22D4314400AD6366 /* ViewController.swift */,
+				E9D3D08022D6B39A00AD6366 /* ReviewViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E9D3D08222D6B41400AD6366 /* Custom Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3D08322D6B46E00AD6366 /* NetworkManager.swift */,
+				E970FD3F22D6D6B4007A1ACC /* AppearanceManager.swift */,
+				E970FD3B22D6D475007A1ACC /* UIElementsManager.swift */,
+				E970FD4122D6D730007A1ACC /* UIElementsSizes.swift */,
+			);
+			path = "Custom Managers";
+			sourceTree = "<group>";
+		};
+		E9D3D08522D6B49700AD6366 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3D08622D6B4B000AD6366 /* String+Extension.swift */,
+				E970FD3D22D6D564007A1ACC /* Fonts+Extentions.swift */,
+				E970FD4322D6DC56007A1ACC /* AddSubsviews.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +354,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E970FD3C22D6D475007A1ACC /* UIElementsManager.swift in Sources */,
+				E970FD4422D6DC56007A1ACC /* AddSubsviews.swift in Sources */,
+				E9D3D07422D4350900AD6366 /* Multimedia.swift in Sources */,
+				E9D3D08722D6B4B000AD6366 /* String+Extension.swift in Sources */,
+				E9D3D06E22D431D600AD6366 /* Base.swift in Sources */,
+				E970FD4222D6D730007A1ACC /* UIElementsSizes.swift in Sources */,
+				E9D3D08122D6B39A00AD6366 /* ReviewViewController.swift in Sources */,
+				E970FD3722D6BC62007A1ACC /* ReviewViewModel.swift in Sources */,
+				E970FD3E22D6D564007A1ACC /* Fonts+Extentions.swift in Sources */,
+				E970FD4022D6D6B4007A1ACC /* AppearanceManager.swift in Sources */,
 				E9D3D03F22D4314400AD6366 /* ViewController.swift in Sources */,
+				E9D3D08422D6B46E00AD6366 /* NetworkManager.swift in Sources */,
+				E9D3D07022D4349B00AD6366 /* Results.swift in Sources */,
 				E9D3D03D22D4314400AD6366 /* AppDelegate.swift in Sources */,
+				E9D3D07222D434DD00AD6366 /* Link.swift in Sources */,
+				E970FD3A22D6D41A007A1ACC /* ReviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +545,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3LN6LR5X2;
 				INFOPLIST_FILE = NewYorkTimes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3LN6LR5X2;
 				INFOPLIST_FILE = NewYorkTimes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
