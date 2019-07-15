@@ -22,6 +22,7 @@ class ReviewCell: UICollectionViewCell {
             NetworkManager.getImage(urlString: imageUrl, completion: { (image, error) in
                 guard let image = image else {return}
                 self.bookImageView.image = image
+                self.bookImageView.hero.id = .url
             })
             
         }
@@ -38,13 +39,13 @@ class ReviewCell: UICollectionViewCell {
     }()
     
     let displayTitleLabel: UILabel = {
-        let label = UIElementsManager.createLabel(text: "The Godfather", font: .boldSystemFont(ofSize: 30), textColor: .white, adjustsFontSizeToFitWidth: true, numberOfLines: 0)
+        let label = UIElementsManager.createLabel(text: "", font: .boldSystemFont(ofSize: 30), textColor: .white, adjustsFontSizeToFitWidth: true, numberOfLines: 0)
         label.textAlignment = .left
         return label
     }()
     
     let summaryLabel: UILabel = {
-        let label = UIElementsManager.createLabel(text: "The God father summary ouyiuwe iuqvdiuvewd oqVDOUvywq quhWVDOUYvqw uyowvsIUYVW ASUVDIuv oUQWHVDSOUqvyw QWUOUqywv kgSVDiu asUVDIU GSADVIUGvw HVDIuvwd VDOIgvd", font: .boldSystemFont(ofSize: 17), textColor: .white, adjustsFontSizeToFitWidth: false, numberOfLines: 3)
+        let label = UIElementsManager.createLabel(text: "", font: .boldSystemFont(ofSize: 17), textColor: .white, adjustsFontSizeToFitWidth: false, numberOfLines: 3)
         label.textAlignment = .left
         return label
     }()
@@ -59,6 +60,7 @@ class ReviewCell: UICollectionViewCell {
     }
     
     private func setupView() {
+        hero.isEnabled = true
         backgroundColor = .white
         layer.cornerRadius = 6
         addSubviews(bookImageView)

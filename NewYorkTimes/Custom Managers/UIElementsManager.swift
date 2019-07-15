@@ -2,7 +2,7 @@
 //  UIElementsManager.swift
 //  NewYorkTimes
 //
-//  Created by Perez Willie-Nwobu on 7/10/19.
+//  Created by Perez Willie-Nwobu on 7/11/19.
 //  Copyright © 2019 Perez Willie-Nwobu. All rights reserved.
 //
 
@@ -117,7 +117,7 @@ enum UIElementsManager {
     }
     
     
-    static func CreateAlertController(title: String, message: String) -> UIAlertController {
+    static func createAlertController(title: String, message: String) -> UIAlertController {
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alertController.addAction(cancelAction)

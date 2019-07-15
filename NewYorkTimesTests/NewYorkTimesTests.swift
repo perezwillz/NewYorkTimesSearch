@@ -14,6 +14,16 @@ class NewYorkTimesTests: XCTestCase {
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
+    
+ 
+    
+    func testJsonEnumeration(){
+        XCTAssertEqual( .url, "https://api.nytimes.com/svc/movies/v2/reviews/search.json")
+        XCTAssertEqual(.searchValue , "godfather")
+        XCTAssertEqual( .apiKey,"76HRowLHO2J0QfPzCp4DAlBn9G1aHgjF")
+        XCTAssertEqual( .reviewCollectionViewCellID, "reviewCellCellID")
+        
+    }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
